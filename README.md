@@ -50,3 +50,54 @@ Transforms the webcam feed into a cartoon-style image using bilateral filtering 
 Segments moving objects from the background, a common first step in many vision applications.
 
 Each script can be stopped by focusing the video window and pressing **q**. Feel free to tweak the parameters in the code and experiment further. Have fun exploring OpenCV!
+
+---
+
+## NumPy Tutorials
+
+The `NumPy_Tutorials` folder contains small Python scripts that introduce
+core NumPy functionality. Run them in order to build up your understanding
+of array programming. Each example can be executed with `python` followed
+by the file name.
+
+### 0. Create arrays
+`python NumPy_Tutorials/00_create_arrays.py`
+
+Demonstrates several ways to create NumPy arrays including zeros and
+identity matrices.
+
+### 1. Array math
+`python NumPy_Tutorials/01_array_math.py`
+
+Shows element-wise arithmetic, vectorized functions and basic aggregations.
+
+### 2. Indexing and slicing
+`python NumPy_Tutorials/02_indexing_slicing.py`
+
+Covers slicing, boolean masks and fancy indexing to access data efficiently.
+
+### 3. Broadcasting
+`python NumPy_Tutorials/03_broadcasting.py`
+
+Illustrates how operations automatically expand array shapes without copies.
+
+### 4. Random numbers & statistics
+`python NumPy_Tutorials/04_random_and_statistics.py`
+
+Uses NumPy's random module to draw samples and compute statistics like
+mean, standard deviation and simple histograms.
+
+### 5. Linear algebra
+`python NumPy_Tutorials/05_linear_algebra.py`
+
+Performs matrix multiplication, computes a determinant and finds the
+inverse of a matrix using `numpy.linalg`.
+
+### 6. Polynomial fitting
+`python NumPy_Tutorials/06_polynomial_fit.py`
+
+Generates noisy quadratic data, fits a polynomial with `numpy.polyfit`
+and evaluates the fitted curve.
+
+Feel free to modify the scripts or use them as starting points for your
+own experiments with NumPy!
