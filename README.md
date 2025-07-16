@@ -6,6 +6,7 @@ This repository contains a collection of small tutorials for learning the basics
 - **Machine_Learning_Tutorial.ipynb** – introductory notebook covering classic algorithms using NumPy.
 - **NumPy_Tutorials/** – short scripts that teach core NumPy concepts. See the [README](NumPy_Tutorials/README.md) inside the folder for details.
 - **OpenCV_Tutorials/** – webcam demos built with OpenCV. See the [README](OpenCV_Tutorials/README.md) inside the folder for instructions.
+- **Deep_Learning_Tutorials/** – PyTorch examples from MLPs to object detection. See the [README](Deep_Learning_Tutorials/README.md) inside the folder.
 
 Open each folder above to follow the individual tutorials.
 
