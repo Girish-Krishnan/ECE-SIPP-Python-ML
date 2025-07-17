@@ -7,6 +7,7 @@ This repository collects small but complete examples for learning scientific com
 - **NumPy_Tutorials/** – standalone scripts illustrating common NumPy operations.
 - **OpenCV_Tutorials/** – webcam and image processing demos using OpenCV.
 - **Deep_Learning_Tutorials/** – PyTorch based training scripts from simple MLPs to transfer learning.
+- **Applications/** – fun demos using Mediapipe, YOLO, Segment Anything and more.
 
 See the individual `README.md` files inside each folder for details on the available examples.
 
