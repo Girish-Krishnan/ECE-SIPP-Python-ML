@@ -32,4 +32,14 @@ Transforms the webcam feed into a cartoon-style image using bilateral filtering 
 
 Segments moving objects from the background, a common first step in many vision applications.
 
+### 6. Record video to file
+`python 06_video_writer.py`
+
+Captures frames from the webcam and saves them to `output.avi` while displaying the stream.
+
+### 7. Draw shapes and text
+`python 07_draw_shapes.py`
+
+Creates a blank canvas and draws rectangles, circles, lines and text to demonstrate OpenCV's drawing functions.
+
 Each script can be stopped by focusing the video window and pressing **q**. Feel free to tweak the parameters in the code and experiment further. Have fun exploring OpenCV!
