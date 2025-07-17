@@ -37,4 +37,14 @@ Performs matrix multiplication, computes a determinant and finds the inverse of 
 
 Generates noisy quadratic data, fits a polynomial with `numpy.polyfit` and evaluates the fitted curve.
 
+### 7. Saving and loading
+`python 07_saving_loading.py`
+
+Shows how to persist arrays using `np.save`, `np.load` and `savetxt`.
+
+### 8. Fourier transforms
+`python 08_fourier_transform.py`
+
+Computes the discrete Fourier transform of a synthetic signal using `numpy.fft`.
+
 Feel free to modify the scripts or use them as starting points for your own experiments with NumPy!

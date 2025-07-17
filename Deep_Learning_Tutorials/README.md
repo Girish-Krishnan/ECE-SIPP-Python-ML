@@ -22,4 +22,14 @@ Uses a ResNet18 pretrained on ImageNet and finetunes it on CIFAR10. This demonst
 
 Loads a pretrained Faster R-CNN model and performs object detection on your own image (save as `sample.jpg`). Detected boxes with high confidence are displayed using Matplotlib.
 
+### 4. Autoencoder for MNIST
+`python 04_autoencoder.py`
+
+Trains a simple autoencoder that reconstructs MNIST digits. The trained weights are saved as `autoencoder_mnist.pt`.
+
+### 5. Inference with a saved CNN
+`python 05_inference_example.py`
+
+Loads the CNN from script 01 and runs inference on a sample from the test set.
+
 These short scripts provide a starting point for experimenting with deep learning in computer vision. Feel free to modify the code or plug in your own datasets to learn more!
