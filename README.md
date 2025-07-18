@@ -19,7 +19,7 @@ See the individual `README.md` files inside each folder for details on the avail
    ```
 2. Install the required packages with `pip`:
    ```bash
-   pip install numpy matplotlib opencv-python torch torchvision
+   pip install -r requirements.txt
    ```
    Additional packages such as `imageio` may be needed for some examples. They can be installed on demand using `pip install <package>`.
 3. Clone this repository and navigate into it:
