@@ -1,0 +1,18 @@
+# Core scientific computing libraries
+numpy
+pandas
+matplotlib
+
+# Computer vision and deep learning
+opencv-python
+torch
+torchvision
+
+# Additional libraries used in example applications
+mediapipe
+ultralytics
+segment-anything
+diffusers
+
+# Machine learning utilities
+scikit-learn
