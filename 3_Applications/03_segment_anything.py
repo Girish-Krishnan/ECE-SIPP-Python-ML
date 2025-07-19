@@ -1,10 +1,10 @@
 import cv2
-import torch
+import numpy as np
 from segment_anything import sam_model_registry, SamPredictor
 
 
 def main():
-    sam = sam_model_registry['vit_b'](checkpoint='sam_vit_b.pth')
+    sam = sam_model_registry['vit_h'](checkpoint='sam_vit_h_4b8939.pth')
     predictor = SamPredictor(sam)
 
     image = cv2.imread('sample.jpg')
@@ -16,7 +16,7 @@ def main():
 
     # Simple rectangular box in the center of the image
     h, w = image.shape[:2]
-    input_box = [w//4, h//4, 3*w//4, 3*h//4]
+    input_box = np.array([w//4, h//4, 3*w//4, 3*h//4])
     masks, _, _ = predictor.predict(box=input_box, multimask_output=False)
 
     mask = masks[0]

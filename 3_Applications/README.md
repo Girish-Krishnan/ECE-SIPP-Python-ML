@@ -42,7 +42,14 @@ Reads `ocr_sample.png` from the current folder and prints the recognized text us
 ### 6. Chat with Llama.cpp
 `python 06_llama_cpp_demo.py`
 
-Loads a local Llama model file such as `llama-2-7b.ggmlv3.q4_0.bin` and opens a simple interactive chat loop.
+Loads a local Llama model file and opens a simple interactive chat loop.
+
+To get model file:
+
+```bash
+# Example: download a GGUF file
+wget https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
+```
 
 ### 7. Whisper speech-to-text
 `python 07_whisper_transcription.py`
