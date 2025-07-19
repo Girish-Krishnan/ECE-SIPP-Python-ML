@@ -14,5 +14,10 @@ ultralytics
 segment-anything
 diffusers
 
+# Additional packages for the Applications examples
+pytesseract
+llama-cpp-python
+openai-whisper
+
 # Machine learning utilities
 scikit-learn
