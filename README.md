@@ -1,4 +1,8 @@
-# Python Machine Learning Examples
+# <center>UCSD ECE Summer Internship Prep Program</center>
+## <center>Python and Machine Learning Workshop</center>
+
+<center>Girish Krishnan</center>
+
 
 This repository collects small but complete examples for learning scientific computing and machine learning with Python. The code is organized by topic so you can jump directly to the areas that interest you.
 
@@ -24,7 +28,7 @@ See the individual `README.md` files inside each folder for details on the avail
    Additional packages such as `imageio` may be needed for some examples. They can be installed on demand using `pip install <package>`.
 3. Clone this repository and navigate into it:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/Girish-Krishnan/ECE-SIPP-Python-ML
    cd ECE-SIPP-Python-ML
    ```
 
@@ -35,11 +39,3 @@ python NumPy_Tutorials/01_array_math.py
 ```
 
 The deep learning scripts will automatically download datasets like MNIST the first time they are run. Training epochs are kept short so they finish quickly on a CPU.
-
-## Opening the notebook in Google Colab
-1. Navigate to the notebook file on GitHub.
-2. Replace `github.com` in the URL with `colab.research.google.com/github`.
-   - Example: `https://colab.research.google.com/github/<username>/<repo>/blob/main/Machine_Learning_Tutorial.ipynb`
-3. Press Enter and Colab will load the notebook so you can execute the code online.
-
-Colab provides free GPU/CPU resources, making it a convenient way to experiment with the code without installing anything locally.
