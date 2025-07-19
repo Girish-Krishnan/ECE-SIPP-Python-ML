@@ -17,6 +17,8 @@ This repository collects small but complete examples for learning scientific com
 
 ## Directory overview
 - **`0_NumPy_Review/`** – standalone scripts illustrating common NumPy operations.
-- **`1_Deep_Learning_Tutorials/`** – PyTorch based training scripts from simple MLPs to transfer learning.
-- **`2_OpenCV_Tutorials/`** – webcam and image processing demos using OpenCV.
-- **`3_Applications/`** – fun demos using Mediapipe, YOLO, Segment Anything and more.
+- **`1_Basic_ML_Tutorials/`** – basic machine learning tutorials using scikit-learn, covering regression, classification, clustering, and more.
+- **`2_Deep_Learning_Tutorials/`** – PyTorch based training scripts from simple MLPs to transfer learning.
+- **`3_NLP_Tutorials/`** – natural language processing tutorials using Hugging Face Transformers, covering text classification, tokenization, and more.
+- **`4_OpenCV_Tutorials/`** – webcam and image processing demos using OpenCV.
+- **`5_Applications/`** – fun demos using Mediapipe, YOLO, Segment Anything and more.
