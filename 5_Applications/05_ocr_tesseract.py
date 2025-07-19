@@ -3,9 +3,9 @@ import pytesseract
 
 
 def main():
-    image = cv2.imread('images/ocr_sample_6.png')
+    image = cv2.imread('assets/ocr_sample_6.png')
     if image is None:
-        print('Provide an image named ocr_sample.png in the images directory.')
+        print('Provide an image named ocr_sample.png in the assets directory.')
         return
 
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

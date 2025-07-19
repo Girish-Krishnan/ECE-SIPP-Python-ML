@@ -1,6 +1,6 @@
 # PyTorch Deep Learning Tutorials
 
-The `Deep_Learning_Tutorials` folder walks through training neural networks with PyTorch. Run the scripts in order to get a quick introduction to different model types. Each example can be executed with `python` followed by the file name.
+This folder walks through training neural networks with PyTorch. Run the scripts in order to get a quick introduction to different model types. Each example can be executed with `python` followed by the file name.
 
 ### 0. Train a simple MLP on MNIST
 `python 00_train_mlp.py`

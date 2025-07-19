@@ -1,6 +1,6 @@
 # NumPy Tutorials
 
-The `NumPy_Tutorials` folder contains small Python scripts that introduce core NumPy functionality. Run them in order to build up your understanding of array programming. Each example can be executed with `python` followed by the file name.
+This folder contains small Python scripts that introduce core NumPy functionality. Run them in order to build up your understanding of array programming. Each example can be executed with `python` followed by the file name.
 
 ### 0. Create arrays
 `python 00_create_arrays.py`

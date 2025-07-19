@@ -1,6 +1,6 @@
 # Basic Machine Learning Tutorials
 
-The `Basic_ML_Tutorials` folder contains small scikit-learn examples
+This folder contains small scikit-learn examples
 showing common algorithms. Each script can be run with `python` followed
 by the file name.
 

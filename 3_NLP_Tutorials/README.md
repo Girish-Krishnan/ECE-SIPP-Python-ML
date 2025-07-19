@@ -1,6 +1,6 @@
 # Natural Language Processing (NLP) Tutorials
 
-The `NLP_Tutorials` folder contains short examples showing how to process and analyze text. Each script can be executed with `python` followed by the file name.
+This folder contains short examples showing how to process and analyze text. Each script can be executed with `python` followed by the file name.
 
 ### 0. Tokenize text with NLTK
 `python 00_tokenize_text.py`

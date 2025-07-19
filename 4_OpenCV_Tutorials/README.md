@@ -1,6 +1,6 @@
 # OpenCV Webcam Tutorials
 
-The `OpenCV_Tutorials` folder contains a series of small Python scripts that demonstrate fun things you can do with a webcam. Each file builds on the previous one, so run them in order to get a feel for OpenCV's capabilities. Make sure you have `opencv-python` installed in your environment.
+This folder contains a series of small Python scripts that demonstrate fun things you can do with a webcam. Each file builds on the previous one, so run them in order to get a feel for OpenCV's capabilities. Make sure you have `opencv-python` installed in your environment.
 
 ### 0. Show your webcam
 `python 00_show_webcam.py`

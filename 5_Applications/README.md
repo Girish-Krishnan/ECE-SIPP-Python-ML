@@ -1,6 +1,6 @@
 # Example Applications
 
-The `Applications` folder contains standalone demos that showcase popular computer vision libraries. Each script can be run individually with Python.
+This folder contains standalone demos that showcase popular computer vision libraries. Each script can be run individually with Python.
 
 Make sure you install the required packages before running the examples. All of them can be installed with `pip` as shown below.
 
