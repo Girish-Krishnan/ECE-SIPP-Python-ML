@@ -5,7 +5,8 @@ The `Applications` folder contains standalone demos that showcase popular comput
 Make sure you install the required packages before running the examples. All of them can be installed with `pip` as shown below.
 
 ```bash
-pip install mediapipe ultralytics segment-anything diffusers
+pip install mediapipe ultralytics segment-anything diffusers \
+    pytesseract llama-cpp-python openai-whisper
 ```
 
 ### 0. Pose estimation with Mediapipe
@@ -32,3 +33,18 @@ Loads `sample.jpg` from the current folder and segments the central region using
 `python 04_text_to_image_diffusion.py`
 
 Prompts you for a text description and uses a Stable Diffusion pipeline to generate an image saved as `generated.png`.
+
+### 5. OCR with Tesseract
+`python 05_ocr_tesseract.py`
+
+Reads `ocr_sample.png` from the current folder and prints the recognized text using the Tesseract OCR engine.
+
+### 6. Chat with Llama.cpp
+`python 06_llama_cpp_demo.py`
+
+Loads a local Llama model file such as `llama-2-7b.ggmlv3.q4_0.bin` and opens a simple interactive chat loop.
+
+### 7. Whisper speech-to-text
+`python 07_whisper_transcription.py`
+
+Transcribes `sample.wav` with OpenAI's Whisper model and prints the detected text.
