@@ -1,6 +1,5 @@
-# <p align="center">UCSD ECE Summer Internship Prep Program</p>
-## <p align="center">Python and Machine Learning Workshop</p>
-
+<h1 align="center">UCSD ECE Summer Internship Prep Program</h1>
+<h2 align="center">Python and Machine Learning Workshop</h2>
 <p align="center">Girish Krishnan</p>
 
 
