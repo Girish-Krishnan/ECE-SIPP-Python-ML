@@ -15,6 +15,11 @@ def main():
     print("b =", b)
     print("a + b =\n", a + b)
 
+    # Multiply by a row vector
+    m = np.ones((2, 3))
+    print("\nm =\n", m)
+    print("m * x =\n", m * x)
+
 
 if __name__ == "__main__":
     main()

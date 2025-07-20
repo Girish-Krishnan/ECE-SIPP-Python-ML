@@ -14,6 +14,13 @@ def main():
     c = np.eye(3)
     print("\nIdentity matrix:\n", c)
 
+    # More array creation tricks
+    d = np.arange(12).reshape(3, 4)
+    print("\nReshaped array:\n", d)
+
+    e = np.full((2, 2), 7)
+    print("\nConstant array:\n", e)
+
 
 if __name__ == "__main__":
     main()

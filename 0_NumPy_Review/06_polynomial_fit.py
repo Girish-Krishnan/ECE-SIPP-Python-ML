@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 def main():
@@ -17,6 +18,13 @@ def main():
 
     # Show first few fitted values
     print("\nfirst 5 fitted values:", y_fit[:5])
+
+    # Plot the data and fitted curve
+    plt.scatter(x, y, label="data")
+    plt.plot(x, y_fit, color="red", label="fit")
+    plt.title("Polynomial fit")
+    plt.legend()
+    plt.show()
 
 
 if __name__ == "__main__":

@@ -17,6 +17,16 @@ def main():
     print("\ndet(A) =", det)
     print("inv(A) =\n", inv)
 
+    # Eigen decomposition
+    w, v = np.linalg.eig(A)
+    print("\neigenvalues =", w)
+    print("eigenvectors =\n", v)
+
+    # Solve a linear system A x = b
+    b_vec = np.array([5, 6])
+    x = np.linalg.solve(A, b_vec)
+    print("\nsolution to A x = b where b=[5,6]:", x)
+
 
 if __name__ == "__main__":
     main()
