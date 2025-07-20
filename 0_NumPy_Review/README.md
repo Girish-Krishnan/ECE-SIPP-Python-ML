@@ -8,6 +8,8 @@ Click on the badge below to open the Jupyter Notebook in your browser, in Google
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Girish-Krishnan/ECE-SIPP-Python-ML/blob/main/0_NumPy_Review/numpy_review.ipynb)
 
+This option does not require you to install anything locally on your machine. The notebook contains explanations and code examples that you can run interactively.
+
 ## Option 2: Python Scripts
 
 You can also run the examples as standalone Python scripts. Each script corresponds to a section in the Jupyter Notebook. Firstly, ensure you have NumPy and Matplotlib installed:
