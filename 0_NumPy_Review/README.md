@@ -4,7 +4,7 @@ This folder contains small Python scripts that introduce core NumPy functionalit
 
 You can also run all of the examples in a single Jupyter notebook. Open it locally or launch it directly in Google Colab using the badge below.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/ECE-SIPP-Python-ML/blob/main/0_NumPy_Review/numpy_review.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Girish-Krishnan/ECE-SIPP-Python-ML/blob/main/0_NumPy_Review/numpy_review.ipynb)
 
 ### 0. Create arrays
 `python 00_create_arrays.py`
