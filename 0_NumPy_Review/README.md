@@ -2,6 +2,10 @@
 
 This folder contains small Python scripts that introduce core NumPy functionality. Run them in order to build up your understanding of array programming. Each example can be executed with `python` followed by the file name.
 
+You can also run all of the examples in a single Jupyter notebook. Open it locally or launch it directly in Google Colab using the badge below.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/ECE-SIPP-Python-ML/blob/main/0_NumPy_Review/numpy_review.ipynb)
+
 ### 0. Create arrays
 `python 00_create_arrays.py`
 
@@ -26,6 +30,7 @@ Illustrates how operations automatically expand array shapes without copies.
 `python 04_random_and_statistics.py`
 
 Uses NumPy's random module to draw samples and compute statistics like mean, standard deviation and simple histograms.
+Displays a histogram of the samples.
 
 ### 5. Linear algebra
 `python 05_linear_algebra.py`
@@ -36,6 +41,7 @@ Performs matrix multiplication, computes a determinant and finds the inverse of 
 `python 06_polynomial_fit.py`
 
 Generates noisy quadratic data, fits a polynomial with `numpy.polyfit` and evaluates the fitted curve.
+Shows a scatter plot of the data alongside the fitted curve.
 
 ### 7. Saving and loading
 `python 07_saving_loading.py`
@@ -46,5 +52,11 @@ Shows how to persist arrays using `np.save`, `np.load` and `savetxt`.
 `python 08_fourier_transform.py`
 
 Computes the discrete Fourier transform of a synthetic signal using `numpy.fft`.
+Plots the original signal and its frequency spectrum.
+
+### 9. Vectorization speed comparison
+`python 09_vectorization_speed.py`
+
+Shows how vectorized operations in NumPy can drastically outperform equivalent Python loops.
 
 Feel free to modify the scripts or use them as starting points for your own experiments with NumPy!

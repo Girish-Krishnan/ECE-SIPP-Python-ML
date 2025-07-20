@@ -11,6 +11,11 @@ def main():
     loaded = np.load('array.npy')
     print('Loaded array:\n', loaded)
 
+    # Save multiple arrays in a compressed npz
+    np.savez_compressed('arrays.npz', first=arr, second=arr * 2)
+    data = np.load('arrays.npz')
+    print('\nArrays in npz:', list(data.keys()))
+
     np.savetxt('array.txt', arr, fmt='%d')
     print('Also saved to array.txt')
 
