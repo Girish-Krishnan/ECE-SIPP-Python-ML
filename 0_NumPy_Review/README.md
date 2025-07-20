@@ -1,10 +1,20 @@
 # NumPy Tutorials
 
-This folder contains small Python scripts that introduce core NumPy functionality. Run them in order to build up your understanding of array programming. Each example can be executed with `python` followed by the file name.
+There are two main ways to run the code in this directory:
 
-You can also run all of the examples in a single Jupyter notebook. Open it locally or launch it directly in Google Colab using the badge below.
+## Option 1: Jupyter Notebook
+
+Click on the badge below to open the Jupyter Notebook in your browser, in Google Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Girish-Krishnan/ECE-SIPP-Python-ML/blob/main/0_NumPy_Review/numpy_review.ipynb)
+
+## Option 2: Python Scripts
+
+You can also run the examples as standalone Python scripts. Each script corresponds to a section in the Jupyter Notebook. Firstly, ensure you have NumPy and Matplotlib installed:
+
+```bash
+pip install numpy matplotlib
+```
 
 ### 0. Create arrays
 `python 00_create_arrays.py`
