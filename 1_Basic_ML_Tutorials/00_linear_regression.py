@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn.datasets import make_regression
 from sklearn.linear_model import LinearRegression
+import matplotlib.pyplot as plt
 
 
 def main():
@@ -11,6 +12,18 @@ def main():
     print("True coefficient:", coef)
     print("Learned coefficient:", model.coef_[0])
     print("Intercept:", model.intercept_)
+
+    # Visualization of the fitted line
+    x_grid = np.linspace(X.min(), X.max(), 100).reshape(-1, 1)
+    y_pred = model.predict(x_grid)
+
+    plt.scatter(X, y, color="blue", label="Data")
+    plt.plot(x_grid, y_pred, color="red", label="Fit")
+    plt.xlabel("Feature")
+    plt.ylabel("Target")
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
 
 
 if __name__ == "__main__":

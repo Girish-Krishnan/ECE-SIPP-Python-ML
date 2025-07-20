@@ -1,7 +1,8 @@
 from sklearn.datasets import load_iris
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, ConfusionMatrixDisplay
 from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
 
 
 def main():
@@ -13,6 +14,12 @@ def main():
     clf.fit(X_train, y_train)
     preds = clf.predict(X_test)
     print("Accuracy:", accuracy_score(y_test, preds))
+
+    # Confusion matrix visualization
+    ConfusionMatrixDisplay.from_predictions(y_test, preds)
+    plt.title("Logistic Regression Confusion Matrix")
+    plt.tight_layout()
+    plt.show()
 
 
 if __name__ == "__main__":

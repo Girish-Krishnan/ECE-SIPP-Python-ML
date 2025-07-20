@@ -1,7 +1,8 @@
 from sklearn.datasets import load_iris
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, ConfusionMatrixDisplay
 from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
 
 
 def main():
@@ -13,6 +14,12 @@ def main():
     tree.fit(X_train, y_train)
     preds = tree.predict(X_test)
     print(classification_report(y_test, preds))
+
+    # Confusion matrix visualization
+    ConfusionMatrixDisplay.from_predictions(y_test, preds)
+    plt.title("Decision Tree Confusion Matrix")
+    plt.tight_layout()
+    plt.show()
 
 
 if __name__ == "__main__":

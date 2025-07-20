@@ -4,6 +4,12 @@ This folder contains small scikit-learn examples
 showing common algorithms. Each script can be run with `python` followed
 by the file name.
 
+Firstly, ensure you have scikit-learn and Matplotlib installed:
+
+```bash
+pip install scikit-learn matplotlib
+```
+
 ### 0. Linear regression on synthetic data
 `python 00_linear_regression.py`
 
