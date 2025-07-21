@@ -21,6 +21,13 @@ def main():
     plt.title("Iris feature scatter plot")
     plt.show()
 
+    # Histogram of petal widths
+    df["petal width (cm)"].hist(bins=20)
+    plt.title("Petal width distribution")
+    plt.xlabel("width (cm)")
+    plt.ylabel("count")
+    plt.show()
+
 
 if __name__ == "__main__":
     main()
