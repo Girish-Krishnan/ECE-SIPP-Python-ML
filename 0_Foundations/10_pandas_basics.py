@@ -17,6 +17,14 @@ def main():
     print("Average age:", df["age"].mean())
     print("Describe scores:\n", df["score"].describe())
 
+    # Simple visualization of the scores
+    df.plot.bar(x="name", y="score", title="Participant scores", legend=False)
+    import matplotlib.pyplot as plt
+    plt.xlabel("name")
+    plt.ylabel("score")
+    plt.tight_layout()
+    plt.show()
+
 
 if __name__ == "__main__":
     main()
