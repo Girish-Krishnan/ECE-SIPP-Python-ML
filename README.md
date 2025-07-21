@@ -21,5 +21,6 @@ This repository collects small but complete examples for learning scientific com
 - **`2_Deep_Learning_Tutorials/`** – PyTorch based training scripts from simple MLPs to transfer learning.
 - **`3_NLP_Tutorials/`** – natural language processing tutorials using Hugging Face Transformers, covering text classification, tokenization, and more.
 - **`4_OpenCV_Tutorials/`** – webcam and image processing demos using OpenCV.
-- **`5_Reinforcement_Learning_Tutorials/`** – short Stable Baselines3 examples using Gym.
-- **`6_Applications/`** – fun demos using Mediapipe, YOLO, Segment Anything and more.
+- **`5_Time_Series_Tutorials/`** – simple time series analysis examples using pandas and statsmodels.
+- **`6_Reinforcement_Learning_Tutorials/`** – short Stable Baselines3 examples using Gym.
+- **`7_Applications/`** – fun demos using Mediapipe, YOLO, Segment Anything and more.

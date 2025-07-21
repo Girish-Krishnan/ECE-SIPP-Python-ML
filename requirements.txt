@@ -21,6 +21,8 @@ openai-whisper
 
 # Machine learning utilities
 scikit-learn
+# Time series analysis
+statsmodels
 # Reinforcement learning
 stable-baselines3
 gymnasium
