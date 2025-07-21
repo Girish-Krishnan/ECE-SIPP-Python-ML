@@ -1,3 +1,4 @@
+"""Random numbers and simple statistics."""
 import numpy as np
 import matplotlib.pyplot as plt
 
