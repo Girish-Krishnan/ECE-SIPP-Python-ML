@@ -21,3 +21,6 @@ openai-whisper
 
 # Machine learning utilities
 scikit-learn
+# Reinforcement learning
+stable-baselines3
+gymnasium
