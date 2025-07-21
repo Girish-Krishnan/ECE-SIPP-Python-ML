@@ -1,4 +1,4 @@
-# Basic Machine Learning Tutorials
+# Supervised Machine Learning Tutorials
 
 There are two main ways to run the code in this directory:
 
@@ -6,7 +6,7 @@ There are two main ways to run the code in this directory:
 
 Click on the badge below to open the Jupyter Notebook in your browser, in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Girish-Krishnan/ECE-SIPP-Python-ML/blob/main/1_Basic_ML_Tutorials/basic_ml_tutorials.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Girish-Krishnan/ECE-SIPP-Python-ML/blob/main/1_Supervised_ML/basic_ml_tutorials.ipynb)
 
 This option does not require you to install anything locally. The notebook contains step-by-step explanations and runnable code cells.
 
@@ -37,15 +37,5 @@ Trains a 3-nearest-neighbor classifier on the handwritten digits dataset and pri
 `python 03_decision_tree.py`
 
 Fits a shallow decision tree on the Iris dataset and shows the classification report on the test split.
-
-### 4. k-means clustering
-`python 04_kmeans_clustering.py`
-
-Performs k-means clustering with three clusters on the Iris features and prints the cluster counts and centers.
-
-### 5. Principal component analysis
-`python 05_pca_digits.py`
-
-Reduces the dimensionality of the digits dataset to two components using PCA and prints the explained variance ratio.
 
 Feel free to modify these examples or use them as starting points for experimenting with scikit-learn!
