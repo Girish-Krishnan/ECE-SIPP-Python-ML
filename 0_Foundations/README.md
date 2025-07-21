@@ -44,37 +44,37 @@ Automatic expansion of array shapes for arithmetic.
 Drawing random samples and computing summary statistics.
 
 ### 5. Polynomial fitting
-`python 06_polynomial_fit.py`
+`python 05_polynomial_fit.py`
 
 Fit a noisy quadratic curve and visualize the result.
 
 ### 6. Saving and loading
-`python 07_numpy_io.py`
+`python 06_numpy_io.py`
 
 Persist arrays using `npy`, `npz` and text formats.
 
 ### 7. Vectorization speed comparison
-`python 09_vectorization_speed.py`
+`python 07_vectorization_speed.py`
 
 Demonstrate the performance benefits of vectorized code.
 
 ### 8. pandas basics
-`python 10_pandas_basics.py`
+`python 08_pandas_basics.py`
 
 Creating DataFrames and computing basic statistics.
 
 ### 9. Exploratory data analysis
-`python 11_eda_plotting.py`
+`python 09_eda_plotting.py`
 
 Load the Iris dataset and create simple visualizations.
 
 ### 10. CSV input and output
-`python 12_csv_io.py`
+`python 10_csv_io.py`
 
 Write a DataFrame to a CSV file and read it back.
 
 ### 11. CIFAR-10 image exploration
-`python 13_cifar10_visualization.py`
+`python 11_cifar10_visualization.py`
 
 Download the CIFAR-10 dataset and display a few sample images.
 
