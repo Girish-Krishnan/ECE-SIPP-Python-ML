@@ -1,3 +1,4 @@
+"""Arithmetic operations with NumPy arrays."""
 import numpy as np
 
 

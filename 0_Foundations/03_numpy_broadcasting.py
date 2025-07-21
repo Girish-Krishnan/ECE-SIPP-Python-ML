@@ -1,3 +1,4 @@
+"""Demonstrates NumPy broadcasting."""
 import numpy as np
 
 

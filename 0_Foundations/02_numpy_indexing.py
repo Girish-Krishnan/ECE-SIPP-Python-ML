@@ -1,3 +1,4 @@
+"""Indexing and slicing examples."""
 import numpy as np
 
 

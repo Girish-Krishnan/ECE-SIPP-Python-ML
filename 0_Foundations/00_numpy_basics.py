@@ -1,3 +1,4 @@
+"""Demonstrates basic NumPy array creation."""
 import numpy as np
 
 

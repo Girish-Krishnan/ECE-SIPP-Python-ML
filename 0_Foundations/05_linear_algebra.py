@@ -1,3 +1,4 @@
+"""Linear algebra operations."""
 import numpy as np
 
 

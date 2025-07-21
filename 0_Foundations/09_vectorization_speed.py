@@ -1,3 +1,4 @@
+"""Comparing loop vs vectorized operations."""
 import numpy as np
 import time
 

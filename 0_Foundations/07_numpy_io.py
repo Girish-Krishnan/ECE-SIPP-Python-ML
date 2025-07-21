@@ -1,3 +1,4 @@
+"""Saving and loading NumPy arrays."""
 import numpy as np
 
 
