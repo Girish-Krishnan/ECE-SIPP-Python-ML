@@ -18,12 +18,27 @@ Install the required packages with pip:
 pip install pandas matplotlib statsmodels
 ```
 
-### 0. Simple moving average
+### 0. Moving averages
 `python 00_moving_average.py`
 
-Generates a noisy sine wave, computes a rolling mean and displays the result.
+Generates a noisy sine wave and visualizes both simple and exponential moving averages.
 
 ### 1. ARIMA forecasting
 `python 01_arima_forecast.py`
 
-Loads the monthly CO2 dataset, fits a simple ARIMA(1,1,1) model and plots a one-year forecast.
+Loads the monthly CO2 dataset, fits an ARIMA(1,1,1) model and plots a two-year forecast with confidence intervals.
+
+### 2. Seasonal decomposition
+`python 02_seasonal_decomposition.py`
+
+Breaks down the CO2 series into trend, seasonal, and residual components with a 4-panel plot.
+
+### 3. Holt-Winters forecasting
+`python 03_holt_winters.py`
+
+Uses Holt-Winters exponential smoothing to forecast the next two years of CO2 concentrations.
+
+### 4. ACF and PACF plots
+`python 04_acf_pacf.py`
+
+Displays autocorrelation and partial autocorrelation plots for the CO2 series.
