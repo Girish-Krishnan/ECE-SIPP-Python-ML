@@ -73,9 +73,10 @@ Load the Iris dataset and create simple visualizations.
 
 Write a DataFrame to a CSV file and read it back.
 
-### 11. CIFAR-10 image exploration
-`python 11_cifar10_visualization.py`
+### 11. DataFrame merging and grouping
+`python 11_pandas_merge_groupby.py`
 
-Download the CIFAR-10 dataset and display a few sample images.
+Load the Titanic dataset from an online CSV, merge with a lookup table and
+compute grouped statistics.
 
 Feel free to modify these examples or use them as a starting point for your own experiments!
