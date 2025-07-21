@@ -1,6 +1,22 @@
 # Natural Language Processing (NLP) Tutorials
 
-This folder contains short examples showing how to process and analyze text. Each script can be executed with `python` followed by the file name.
+There are two main ways to run the examples in this directory:
+
+## Option 1: Jupyter Notebook
+
+Click on the badge below to open the notebook in Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Girish-Krishnan/ECE-SIPP-Python-ML/blob/main/3_NLP_Tutorials/nlp_tutorials.ipynb)
+
+The notebook walks through each task step by step with explanations.
+
+## Option 2: Python Scripts
+
+You can also execute the scripts individually with `python`. Make sure the required packages are installed:
+
+```bash
+pip install nltk scikit-learn transformers spacy
+```
 
 ### 0. Tokenize text with NLTK
 `python 00_tokenize_text.py`
@@ -27,4 +43,9 @@ Runs a Hugging Face `pipeline` to classify a short sentence as positive or negat
 
 Loads the small English spaCy model and prints entities found in a sample sentence.
 
-Feel free to modify these examples or use them as starting points for your own NLP experiments. Additional packages like `nltk`, `transformers` and `spacy` can be installed with pip if they are not already available.
+### 5. Word embeddings and similarity
+`python 05_word_embeddings.py`
+
+Loads medium-size spaCy vectors and prints pairwise similarities between a few sample words.
+
+Feel free to modify these examples or use them as starting points for your own NLP experiments.
