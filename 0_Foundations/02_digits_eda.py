@@ -1,7 +1,7 @@
 """EDA for the scikit-learn digits dataset."""
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.datasets import load_digits, fetch_openml
+from sklearn.datasets import load_digits
 
 
 def main() -> None:
@@ -27,21 +27,6 @@ def main() -> None:
     plt.tight_layout()
     plt.show()
 
-    # Fetch the MNIST dataset and plot one example of each digit class
-    mnist = fetch_openml("mnist_784", version=1, as_frame=False)
-    images = mnist.data.reshape(-1, 28, 28)
-    labels = mnist.target.astype(int)
-
-    fig, axes = plt.subplots(2, 5, figsize=(8, 4))
-    for digit in range(10):
-        idx = (labels == digit).nonzero()[0][0]
-        ax = axes[digit // 5, digit % 5]
-        ax.imshow(images[idx], cmap="gray_r")
-        ax.set_title(digit)
-        ax.axis("off")
-    plt.suptitle("Example MNIST digits")
-    plt.tight_layout()
-    plt.show()
 
 
 if __name__ == "__main__":
