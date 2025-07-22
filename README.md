@@ -23,3 +23,18 @@ This repository collects small but complete examples for learning scientific com
 - **`6_Time_Series/`** – simple time series analysis examples using pandas and statsmodels.
 - **`7_Reinforcement_Learning/`** – short Stable Baselines3 examples using Gym.
 - **`8_Applications/`** – fun demos using Mediapipe, YOLO, Segment Anything and more.
+
+## Some of my cool projects to check out
+
+- Implementing a Neural Network from Scratch in C++ and CUDA [Link](https://github.com/Girish-Krishnan/CUDA-CPP-NeuralNet)
+- Implementing Q-Learning to solve a maze from scratch in CUDA [Link](https://github.com/Girish-Krishnan/Multi-Agent-Q-Learning-CUDA)
+- Introductory Reinforcement Learning Assignments [Link](https://github.com/Girish-Krishnan/AI-Algorithms)
+- Implementing a GAN for Video Prediction [Link](https://github.com/Girish-Krishnan/FutureGAN-HMDB-Video-Prediction)
+- Deepfake Detection using CNNs [Link](https://github.com/Girish-Krishnan/Deepfake-Detection)
+- ML for Galaxy Image Classification [Link](https://github.com/Girish-Krishnan/Computer-Vision-Galaxy-Classification)
+- Reinforcement Learning for Mobile Robot Manipulation [Link](https://github.com/Girish-Krishnan/MPC-and-RL-Mobile-Manipulator)
+- Physics-Informed Deep Learning for Geological Waveform Inversion [Link](https://github.com/Girish-Krishnan/ECE-228-Final-Project)
+- GPT + Stable Diffusion for Visual-Textual Storytelling [Link](https://github.com/Girish-Krishnan/Visual-Textual-Story-Generation)
+- Semantic Segmentation for Laser Line Detection [Link](https://github.com/Girish-Krishnan/Semantic-Segmentation-Laser-Line-Detection)
+- Training a conditional GAN and VAE for generating X-Ray images [Link](https://github.com/Girish-Krishnan/X-Ray-Image-GAN-VAE)
+- Training Transformer models for music generation [Link](https://github.com/sdubnov/ML4Music-HW/blob/main/Assignment%2010%20PyTorch.ipynb)
