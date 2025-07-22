@@ -2,6 +2,7 @@
 numpy
 pandas
 matplotlib
+seaborn
 
 # Computer vision and deep learning
 opencv-python

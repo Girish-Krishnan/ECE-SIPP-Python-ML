@@ -1,6 +1,7 @@
 """Simple exploratory data analysis with pandas and Matplotlib."""
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 from sklearn import datasets
 
 
@@ -26,6 +27,18 @@ def main():
     plt.title("Petal width distribution")
     plt.xlabel("width (cm)")
     plt.ylabel("count")
+    plt.show()
+
+    # Pairplot of all numerical features colored by class
+    sns.pairplot(df, hue="target")
+    plt.suptitle("Iris pair plot", y=1.02)
+    plt.show()
+
+    # Correlation heatmap
+    corr = df.drop(columns=["target"]).corr()
+    sns.heatmap(corr, annot=True, cmap="coolwarm")
+    plt.title("Feature correlation heatmap")
+    plt.tight_layout()
     plt.show()
 
 
