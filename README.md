@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License"/>
 </p>
 
-This repository collects small but complete examples for learning scientific computing and machine learning with Python. The code is organized by topic so you can jump directly to the areas that interest you.
+This repository collects small but complete examples for learning scientific computing and machine learning with Python, for the UCSD ECE Summer Internship Prep Program.
 
 ## Directory overview
 - **`0_Foundations/`** – introductory pandas examples for data analysis and visualization.
