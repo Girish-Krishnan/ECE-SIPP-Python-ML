@@ -18,24 +18,29 @@ You can also run the examples as standalone Python scripts. Firstly, ensure you 
 pip install scikit-learn matplotlib
 ```
 
-### 0. Linear regression on synthetic data
+### 0. Linear regression from scratch and scikit-learn
 `python 00_linear_regression.py`
 
-Generates a noisy 1D dataset and fits a linear regression model, printing the learned coefficient and intercept.
+Computes the closed-form solution for a synthetic dataset and compares it with `LinearRegression`.
 
-### 1. Logistic regression on Iris
-`python 01_logistic_regression.py`
+### 1. Linear regression with feature engineering
+`python 01_linear_regression_fe.py`
 
-Splits the Iris dataset into train and test sets and reports the accuracy of a logistic regression classifier.
+Adds polynomial features and fits the model using both NumPy and scikit-learn.
 
 ### 2. k-NN classification on digits
 `python 02_knn_digits.py`
 
-Trains a 3-nearest-neighbor classifier on the handwritten digits dataset and prints the test accuracy.
+Implements a simple k-NN classifier before showing `KNeighborsClassifier`.
 
-### 3. Decision tree classifier
-`python 03_decision_tree.py`
+### 3. Perceptron with gradient descent
+`python 03_perceptron.py`
 
-Fits a shallow decision tree on the Iris dataset and shows the classification report on the test split.
+Trains a perceptron from scratch on a synthetic dataset and compares with scikit-learn.
+
+### 4. Logistic regression on Iris
+`python 04_logistic_regression.py`
+
+Uses gradient descent to fit a logistic regression model and then uses scikit-learn's implementation.
 
 Feel free to modify these examples or use them as starting points for experimenting with scikit-learn!
