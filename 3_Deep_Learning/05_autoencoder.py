@@ -87,6 +87,19 @@ def main():
     test_loss /= len(test_loader)
     print(f'Test reconstruction loss: {test_loss:.4f}')
 
+    # Show reconstructions
+    images, _ = next(iter(test_loader))
+    with torch.no_grad():
+        recon = model(images.to(device)).cpu()
+    fig, axes = plt.subplots(2, 6, figsize=(12, 4))
+    for i in range(6):
+        axes[0, i].imshow(images[i].squeeze(), cmap="gray")
+        axes[0, i].axis("off")
+        axes[1, i].imshow(recon[i].squeeze(), cmap="gray")
+        axes[1, i].axis("off")
+    plt.tight_layout()
+    plt.savefig("autoencoder_recon.png")
+
     torch.save(model.state_dict(), 'autoencoder_mnist.pt')
     print('Model saved as autoencoder_mnist.pt')
 

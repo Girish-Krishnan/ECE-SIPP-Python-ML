@@ -95,6 +95,18 @@ def main():
     accuracy = correct / len(test_ds)
     print(f'Test accuracy: {accuracy:.4f}')
 
+    # Visualize predictions
+    images, labels = next(iter(test_loader))
+    with torch.no_grad():
+        preds = model(images.to(device)).argmax(dim=1).cpu()
+    fig, axes = plt.subplots(1, 6, figsize=(12, 2))
+    for i, ax in enumerate(axes):
+        ax.imshow(images[i].squeeze(), cmap="gray")
+        ax.set_title(f"{preds[i].item()} / {labels[i].item()}")
+        ax.axis("off")
+    plt.tight_layout()
+    plt.savefig("cnn_predictions.png")
+
     torch.save(model.state_dict(), 'cnn_mnist.pt')
     print('Training complete. Model saved as cnn_mnist.pt')
 
