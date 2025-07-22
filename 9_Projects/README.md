@@ -2,7 +2,7 @@
 
 This folder contains example datasets and starter code for practice projects. The notebook can be opened directly in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Girish-Krishnan/ECE-SIPP-Python-ML/blob/main/Projects/dataset_projects.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Girish-Krishnan/ECE-SIPP-Python-ML/blob/main/9_Projects/dataset_projects.ipynb)
 
 Inside the notebook you'll find small code snippets for loading a few datasets using `pandas`:
 
