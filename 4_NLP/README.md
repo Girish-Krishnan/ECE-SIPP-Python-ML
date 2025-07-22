@@ -6,7 +6,7 @@ There are two main ways to run the examples in this directory:
 
 Click on the badge below to open the notebook in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Girish-Krishnan/ECE-SIPP-Python-ML/blob/main/4_NLP_Tutorials/nlp_tutorials.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Girish-Krishnan/ECE-SIPP-Python-ML/blob/main/4_NLP/nlp_tutorials.ipynb)
 
 The notebook walks through each task step by step with explanations.
 
