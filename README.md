@@ -14,7 +14,7 @@
 This repository collects small but complete examples for learning scientific computing and machine learning with Python. The code is organized by topic so you can jump directly to the areas that interest you.
 
 ## Directory overview
-- **`0_Foundations/`** – introductory NumPy and pandas examples for data exploration.
+- **`0_Foundations/`** – introductory pandas examples for data analysis and visualization.
 - **`1_Supervised_ML/`** – basic supervised machine learning tutorials using scikit-learn.
 - **`2_Unsupervised_ML/`** – clustering and dimensionality reduction examples with scikit-learn.
 - **`3_Deep_Learning_Tutorials/`** – PyTorch based training scripts from simple MLPs to transfer learning.
