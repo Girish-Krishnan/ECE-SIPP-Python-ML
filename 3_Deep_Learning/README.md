@@ -21,22 +21,23 @@ pip install torch torchvision
 ### 0. PyTorch tensor basics
 `python 00_tensor_basics.py`
 
-Demonstrates creating tensors, running operations, and basic autograd.
+Demonstrates creating tensors, running operations, basic autograd and a tiny
+gradient-descent example.
 
 ### 1. Train a simple MLP
 `python 01_train_mlp.py`
 
-Downloads the MNIST dataset, splits it into training/validation/test sets and trains a multilayer perceptron for a few epochs. A plot of the learning curve is saved along with the weights as `mlp_mnist.pt`.
+Downloads the MNIST dataset, splits it into training/validation/test sets and trains a multilayer perceptron for a few epochs. A plot of the learning curve is saved and a few sample predictions are visualized. The weights are written to `mlp_mnist.pt`.
 
 ### 2. Train a basic CNN
 `python 02_train_cnn.py`
 
-Builds a small convolutional neural network trained on the same MNIST splits. Training and validation loss curves are plotted and the final weights are written to `cnn_mnist.pt`.
+Builds a small convolutional neural network trained on the same MNIST splits. Training/validation curves are plotted and sample predictions are shown. The final weights are written to `cnn_mnist.pt`.
 
 ### 3. Finetune a pretrained ResNet
 `python 03_transfer_learning.py`
 
-Uses a ResNet18 pretrained on ImageNet and finetunes it on CIFAR10 using proper train/val/test splits. Learning curves are saved and the finetuned weights are written to `resnet18_cifar10.pt`.
+Uses a ResNet18 pretrained on ImageNet and finetunes it on CIFAR10 using proper train/val/test splits. Loss curves and example predictions are produced and the finetuned weights are written to `resnet18_cifar10.pt`.
 
 ### 4. Run object detection
 `python 04_object_detection.py`
@@ -46,7 +47,7 @@ Loads a pretrained Faster R-CNN model and performs object detection on your own 
 ### 5. Autoencoder for MNIST
 `python 05_autoencoder.py`
 
-Trains a simple autoencoder on MNIST with validation and test evaluation. A loss curve is generated and the trained weights are saved as `autoencoder_mnist.pt`.
+Trains a simple autoencoder on MNIST with validation and test evaluation. Loss curves and sample reconstructions are displayed. The trained weights are saved as `autoencoder_mnist.pt`.
 
 ### 6. Inference with a saved CNN
 `python 06_inference_example.py`

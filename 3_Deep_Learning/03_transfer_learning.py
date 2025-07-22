@@ -76,6 +76,19 @@ def main():
     accuracy = correct / len(test_ds)
     print(f'Test accuracy: {accuracy:.4f}')
 
+    # Visualize predictions
+    images, labels = next(iter(test_loader))
+    with torch.no_grad():
+        preds = model(images.to(device)).argmax(dim=1).cpu()
+    images = images * 0.5 + 0.5
+    fig, axes = plt.subplots(2, 3, figsize=(9, 6))
+    for i, ax in enumerate(axes.flat):
+        ax.imshow(images[i].permute(1, 2, 0))
+        ax.set_title(f"{preds[i].item()} / {labels[i].item()}")
+        ax.axis("off")
+    plt.tight_layout()
+    plt.savefig("resnet_predictions.png")
+
     torch.save(model.state_dict(), 'resnet18_cifar10.pt')
     print('Finetuning complete. Model saved as resnet18_cifar10.pt')
 
