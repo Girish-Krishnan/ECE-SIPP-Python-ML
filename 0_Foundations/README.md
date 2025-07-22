@@ -26,12 +26,15 @@ Creating DataFrames and computing basic statistics.
 ### 1. Exploratory data analysis (Iris dataset)
 `python 01_eda_plotting.py`
 
-Load the Iris dataset and create simple visualizations.
+Load the Iris dataset and create simple visualizations. The script now also
+generates a pair plot and correlation heatmap for all four features.
 
 ### 2. Digits dataset EDA
 `python 02_digits_eda.py`
 
-Inspect the digits dataset and plot the distribution of target classes.
+Inspect the digits dataset, plot the distribution of target classes, and display
+example images from both the built-in digits dataset and the larger MNIST
+handwritten digits collection.
 
 ### 3. Handling missing data
 `python 03_missing_data.py`
