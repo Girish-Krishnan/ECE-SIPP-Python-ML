@@ -23,22 +23,17 @@ pip install scikit-learn matplotlib
 
 Computes the closed-form solution for a synthetic dataset and compares it with `LinearRegression`.
 
-### 1. Linear regression with feature engineering
-`python 01_linear_regression_fe.py`
-
-Adds polynomial features and fits the model using both NumPy and scikit-learn.
-
-### 2. k-NN classification on digits
+### 1. k-NN classification on digits
 `python 02_knn_digits.py`
 
 Implements a simple k-NN classifier before showing `KNeighborsClassifier`.
 
-### 3. Perceptron with gradient descent
+### 2. Perceptron with gradient descent
 `python 03_perceptron.py`
 
 Trains a perceptron from scratch on a synthetic dataset and compares with scikit-learn.
 
-### 4. Logistic regression on Iris
+### 3. Logistic regression on Iris
 `python 04_logistic_regression.py`
 
 Uses gradient descent to fit a logistic regression model and then uses scikit-learn's implementation.
