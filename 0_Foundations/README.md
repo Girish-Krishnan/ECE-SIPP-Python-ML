@@ -23,24 +23,19 @@ pip install pandas matplotlib seaborn scikit-learn
 
 Creating DataFrames and computing basic statistics.
 
-### 1. Exploratory data analysis
+### 1. Exploratory data analysis (Iris dataset)
 `python 01_eda_plotting.py`
 
 Load the Iris dataset and create simple visualizations.
 
-### 2. CSV input and output
-`python 02_csv_io.py`
+### 2. Digits dataset EDA
+`python 02_digits_eda.py`
 
-Write a DataFrame to a CSV file and read it back.
+Inspect the digits dataset and plot the distribution of target classes.
 
-### 3. DataFrame merging and grouping
-`python 03_pandas_merge_groupby.py`
+### 3. Handling missing data
+`python 03_missing_data.py`
 
-Load the Titanic dataset from an online CSV, merge with a lookup table and compute grouped statistics.
-
-### 4. Advanced data visualization
-`python 04_advanced_visualization.py`
-
-Visualize relationships in the tips dataset using pair plots and a correlation heatmap.
+Examples of filling and dropping missing values.
 
 Feel free to modify these examples or use them as a starting point for your own experiments!
